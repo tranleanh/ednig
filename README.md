@@ -13,11 +13,29 @@ Paper: Coming soon!
 <img src="docs/EDNIG.jpg" width="1000">
 </p>
 
-## Dependencies
-(will be updated)
+## Visual Examples
 
-## Setup
-(will be updated)
+<p align="center">
+<img src="docs/results_LOL.png" width="1000">
+</p>
+
+<p align="center">
+<img src="docs/results_realistic.png" width="1000">
+</p>
+
+## Dependencies
+Main dependencies (or equivalent):
+
+- CUDA 10.0
+- CUDNN 7.6
+- OpenCV
+- Tensorflow 1.14.0
+- Keras 2.1.3
+
+For other packages, simply run:
+```bashrc
+$ pip install -r requirements.txt
+```
 
 ## Test
 (will be updated)

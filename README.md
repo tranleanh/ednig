@@ -1,5 +1,7 @@
 # EDNIG: Encoder-Decoder Network with Illumination Guidance for Low-Light Image Enhancement
 
+[![Weights](https://img.shields.io/badge/Weights-Hugging_Face-gold)](https://huggingface.co/tranleanh/ednig)
+
 This is the implementation of the paper "Low-Light Enhancement via Encoder-Decoder Network with Illumination Guidance".
 
 Author: Le-Anh Tran

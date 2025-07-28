@@ -48,10 +48,10 @@ def convolution_2d(x, num_filter=32, k_size=3, act_type="mish"):
     return x
 
 
-def gan_model(generator, Discriminator (Critic)):
+def gan_model(generator, discriminator):
     inputs = Input(shape=image_shape)
     generated_image = generator(inputs)
-    outputs = Discriminator (Critic)(generated_image)
+    outputs = discriminator(generated_image)
     model = Model(inputs=inputs, outputs=[generated_image, outputs])
     return model
 
@@ -128,7 +128,7 @@ def unet_spp_swish_generator_model():
 
 
 ## Discriminator (Critic)
-def unet_encoder_Discriminator (Critic)_model():
+def unet_encoder_discriminator_model():
     
     inputs = Input(shape=image_d_shape)
     

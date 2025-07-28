@@ -37,10 +37,17 @@ $ pip install -r requirements.txt
 ```
 
 ## Test
-(will be updated)
+Download the pre-trained weights and modify the [weight_path](https://github.com/tranleanh/ednig/blob/c80d8eb769397c69deae19114b9d9ceefd12a642/test_on_images.py#L59) and [data folder](https://github.com/tranleanh/ednig/blob/c80d8eb769397c69deae19114b9d9ceefd12a642/test_on_images.py#L70C5-L70C12) for quick test.
+```bashrc
+$ python test_on_images.py
+```
+
 
 ## Train
-(will be updated)
+Refer to this [section](https://github.com/tranleanh/edn-gtm?tab=readme-ov-file#train) for training.
+```bashrc
+$ python train.py
+```
 
 ## Citation
 ```bibtex
